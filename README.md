@@ -3,4 +3,4 @@ DAVID is an 21st Century Prototype of an Modern AI Assistant for desktop users.
 DAVID is an enhance version of previous so called desktop assistant "Microsoft Cortana"
 
 # DAVID Working
-The model is based on the working of the API which is based on the commands we give.
+The model is based on the working of the API, through which we give the commands and recieve response from the model.
