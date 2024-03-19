@@ -4,3 +4,4 @@ DAVID is an enhance version of previous so called desktop assistant "Microsoft C
 
 # DAVID Working
 The model is based on the working of the API, through which we give the commands and recieve response from the model.
+The model is developed using Python Programming Language.
