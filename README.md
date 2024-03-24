@@ -7,11 +7,10 @@ The model is based on the working of the API, through which we give the commands
 The model is developed using Python Programming Language.
 It is an prototype model for the implementation of Natural Language Processing and Deep Learning.
 # DAVID Working Methodology
-# DAVID Working Methodology
-Step 1: Installing of Modules
-Step 2: Voice Input
-Step 3: Recognition of the Command
-Step 4: Collecting Data
-Step 5: Extracting Data
-Step 6: Presenting the Data
+Step 1: Installing of Modules for the model formation
+Step 2: Voice Input from the user
+Step 3: Recognition of the Command from the user
+Step 4: Collecting Data for the search
+Step 5: Extracting Data for the search
+Step 6: Presenting the Data for the model output
 
