@@ -19,8 +19,7 @@ Step 5: Extracting Data for the search
 
 Step 6: Presenting the Data for the model output
 
-#Step 1
-tep 1: installation, accounts, APIs...
+#Step 1 Installation, accounts, APIs...
 Environment
 Make a new, empty virtual environment with Python 3.8 and activate it (.\venv_name\Scripts\activate );
 pip install -r venv_requirements.txt; This might take some time; if you encounter conflicts on specific packages, install them manually without the ==<version>;
