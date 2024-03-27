@@ -29,9 +29,7 @@ install TTS;
 Run their script and check everything is working (it should download some models) (you can alternatively run demos/tts_demo.py);
 Rename or delete the TTS folder and download the Assistant and other scripts from this repo
 Install Vicuna following the instructions on the Vicuna folder or by running:
-cd Vicuna
-call vicuna.ps1
-
+cd Vicuna and call vicuna.ps1
 Manual instructions will instruct you to follow the Vicuna Installation Guide
 paste all your keys in the env.txt file and rename it to .env (yes, remove the txt extension)
 Check everything works (following)
