@@ -28,7 +28,7 @@ Copy and paste the files you'll find in the folder whisper_edits to the whisper 
 install TTS;
 Run their script and check everything is working (it should download some models) (you can alternatively run demos/tts_demo.py);
 Rename or delete the TTS folder and download the Assistant and other scripts from this repo
-Install Vicuna following the instructions on the Vicuna folder or by running:
+Install Vicuna following the instructions on the Vicuna folder or by running command in:
 cd Vicuna and call vicuna.ps1
 Manual instructions will instruct you to follow the Vicuna Installation Guide
 paste all your keys in the env.txt file and rename it to .env (yes, remove the txt extension)
