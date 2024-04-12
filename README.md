@@ -2,11 +2,11 @@
 DAVID is an 21st Century Prototype of an Modern AI Assistant for desktop users.
 DAVID is an enhance version of previous so called desktop assistant "Microsoft Cortana"
 
-# DAVID Working
+## DAVID Working
 The model is based on the working of the API, through which we give the commands and recieve response from the model.
 The model is developed using Python Programming Language.
 It is an prototype model for the implementation of Natural Language Processing and Deep Learning.
-# DAVID Working Methodology
+## DAVID Working Methodology
 Step 1: Installing of Modules for the model formation
 
 Step 2: Voice Input from the user
@@ -19,26 +19,43 @@ Step 5: Extracting Data for the search
 
 Step 6: Presenting the Data for the model output
 
-#Step 1 Installation, accounts, APIs...
-Environment
-Make a new, empty virtual environment with Python 3.8 and activate it (.\venv_name\Scripts\activate );
-pip install -r venv_requirements.txt; This might take some time; if you encounter conflicts on specific packages, install them manually without the ==<version>;
-install manually PyTorch according to your CUDA VERSION;
-Copy and paste the files you'll find in the folder whisper_edits to the whisper folder of your environment (.\venv\lib\site-packages\whisper\ ) these edits will add just an attribute to the whisper model to access its dimension more easily;
-install TTS;
-Run their script and check everything is working (it should download some models) (you can alternatively run demos/tts_demo.py);
-Rename or delete the TTS folder and download the Assistant and other scripts from this repo
-Install Vicuna following the instructions on the Vicuna folder or by running command in:
-cd Vicuna and call vicuna.ps1
-Manual instructions will instruct you to follow the Vicuna Installation Guide
-paste all your keys in the env.txt file and rename it to .env (yes, remove the txt extension)
-Check everything works (following)
+## Features
+- Voice recognition: David can understand and respond to voice commands.
+- Text-to-speech conversion: David can speak out responses to the user's queries.
+- Weather information: Fetches current weather information using OpenWeatherMap API.
+- Music player: Plays music from the local directory.
+- Email sending: Sends emails using SMTP protocol.
+- Wikipedia search: Retrieves information from Wikipedia based on user queries.
 
-Checks
-Verify your graphic engine and CUDA version are compatible with PyTorch by running torch.cuda.is_available() and torch.cuda.get_device_name(0) inside Pyhton; .
-run tests.py. This file attempt to perform basic operations that might raise errors;
-[WARNING] Check the FAQs below if you have errors;
-You can check the sources of error by running demos in the demos folder;
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/David.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd David
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+## Usage
+1. Run the `main.py` file:
+   ```bash
+   python main.py
+   ```
+2. David will prompt you to speak. Simply speak your command after the prompt.
 
+## Configuration
+1. Open the `config.py` file.
+2. Update the configuration variables as needed:
+   - `OPENWEATHERMAP_API_KEY`: Your API key for accessing OpenWeatherMap API.
+   - `EMAIL_ADDRESS`: Your email address for sending emails.
+   - `EMAIL_PASSWORD`: Your email account's password.
+   - `SMTP_SERVER`: SMTP server address.
+   - `SMTP_PORT`: SMTP server port number.
 
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
